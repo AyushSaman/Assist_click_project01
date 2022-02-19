@@ -1,0 +1,169 @@
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    font-size: 400%;
+    background: -webkit-linear-gradient(rgb(177, 238, 233), white);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-bottom: 1rem;
+    
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    margin: 2rem 0 3rem;
+    text-align: center;
+    color: white;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background: -webkit-linear-gradient(rgb(177, 238, 233), white);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 0 1rem 2rem 1rem;
+
+}
+
+hr{
+    margin: 2rem 0;
+}
+
+/* navigation bar */
+
+.Brand-name{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar ul li{
+    padding: 0 10px;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+/* title section contant */
+#title-section{
+    padding: 0;
+    color: white;
+    
+}
+
+
+.company-name{
+    background-image: url('../image/background.jpg');
+    color: white;
+    height: 18rem;
+    text-align: center;
+    padding: 3rem 0 0 0;
+    line-height: 1.5;
+    
+}
+
+
+/* middle-container */
+
+.middle-contant{
+    padding: 2rem;
+}
+.middle-img{
+    float: right;
+    width: 20rem;
+    margin: 2% 0 2%;
+
+}
+
+.middle-para{
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+/* third-container */
+
+
+.bg-img::after{
+    content: "";
+  background: url('../image/background.jpg');
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#third-section p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.who-we-are{
+    height: 100%;
+}
+
+/* footer-section */
+
+.first-footer{
+    margin: 3rem 100px;
+
+}
+
+
+.second-footer{
+    background-color: #FBF8F1;
+    padding: 2rem 0 2rem 0;
+    
+}
+
+.second-footer span{
+    display: block;
+    font-size: 17px;
+    text-align: center;
+}
+
+.copyright{
+    margin: 3rem 2rem 0 1rem;
+    font-family: 'Montserrat';
+}
+.name{
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+}
+
+@media screen and (max-width : 640px) {
+    h1{
+        font-size: 55px;
+        margin-bottom: 2rem;
+
+    }
+    .middle-img{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .first-footer{
+        margin: 3rem 0;
+    }
+
+    .name{
+    display: block;
+    text-align: right;
+    }
+
+    .bg-img::after{
+        opacity: 1;
+    }
+
+    .middle-para {
+        padding: 2rem 0;
+    }
+}
